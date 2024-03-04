@@ -1,0 +1,32 @@
+.pic img {
+    transform: rotate(0 deg);
+    transform-origin: top right;
+    padding-left: 300px;
+}
+.viwo{
+    background-image: url(images/viow-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.viwo :hover.pic img{
+    transform: rotate(-65deg);
+    transition: transform 1s;
+    padding-left: 300px;
+
+}
+.boll{
+    width: 45px;
+    height: 45px;
+    background-color: red;
+    border-radius: 22px;
+    position: relative;
+    left:795px ;
+    bottom: 30px;
+}
+.viwo :hover.pic .boll{
+  transform: translate(500px);
+    transition: transform 1.5s .9s;
+   
+}
